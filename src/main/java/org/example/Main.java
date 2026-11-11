@@ -1,11 +1,11 @@
-import controller.Controller;
-import model.Cat;
-import model.Dog;
-import model.SpeakBchavior;
-import view.MyFrame;
-import view.MyPanel;
+package org.example;
 
-void main(){
-    new Controller();
+import org.example.controller.Controller;
+
+public class Main {
+    public static void main (String[] args){
+        new Controller();
+    }
 }
+
 
